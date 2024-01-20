@@ -1,0 +1,1441 @@
+query_name,plan_size,true_cost,compass_est,psql_est,plan
+100_1,8,7102710.999999999,224388.0,316179.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_10,8,6438287.999999999,224388.0,263480.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_11,8,6173305.999999999,224388.0,253074.0,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_12,8,6386560.999999999,224388.0,257628.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_13,8,6493485.999999999,224388.0,285282.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_14,8,6318420.999999999,224388.0,264305.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_15,8,6577195.999999999,224388.0,284811.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_16,8,6827313.999999999,224388.0,293584.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_17,8,6664664.999999999,224388.0,291857.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_18,8,6420017.999999999,224388.0,268792.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_19,8,7229728.999999999,224388.0,300028.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_2,8,7698660.999999999,224388.0,316864.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_20,8,6363425.999999999,224388.0,270069.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_21,8,6959877.999999999,224388.0,308233.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_22,8,6582770.999999999,224388.0,272371.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_23,8,6418483.999999999,224388.0,269389.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_24,8,7906173.999999999,224388.0,317083.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_25,8,7032582.999999999,224388.0,317639.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_26,8,6679553.999999999,224388.0,291023.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_27,8,7314299.999999999,224388.0,317653.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_28,8,7603741.999999999,224388.0,322127.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_29,8,7417082.999999999,224388.0,313047.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_3,8,6496218.999999999,224388.0,277450.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_30,8,6961701.999999999,224388.0,301863.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_31,8,6829373.999999999,224388.0,302722.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_32,8,6359764.999999999,224388.0,272799.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_33,8,6653356.999999999,224388.0,270299.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_34,8,6960433.999999999,224388.0,316727.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_35,8,6496692.999999999,224388.0,269114.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_36,8,6956934.999999999,224388.0,294164.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_37,8,6188467.999999999,224388.0,254346.0,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_38,8,6332786.999999999,224388.0,268965.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_39,8,7535215.999999999,224388.0,316514.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_4,8,6019725.999999999,224388.0,240774.0,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_40,8,6577203.999999999,224388.0,287408.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_41,8,6955231.999999999,224388.0,298580.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_42,8,6504612.999999999,224388.0,275083.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_43,8,6159852.999999999,224388.0,247436.0,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_44,8,6005748.999999999,224388.0,242182.0,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_45,8,6118641.999999999,224388.0,248748.0,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_46,8,6001240.999999999,224388.0,234454.0,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_47,8,6827422.999999999,224388.0,283520.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_48,8,6469364.999999999,224388.0,283779.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_49,8,6332489.999999999,224388.0,255257.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_5,8,6303992.999999999,224388.0,269203.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_50,8,6180809.999999999,224388.0,255518.8,s1-item1 d-s1 s1-c c-cd s1-s2 s2-item2 c-ca
+100_6,8,6706126.999999999,224388.0,277898.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_7,8,6670030.999999999,224388.0,288848.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_8,8,7105496.999999999,224388.0,294621.8,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+100_9,8,7650767.999999999,224388.0,329685.80000000005,s1-item1 d-s1 s1-c c-cd c-ca s1-s2 s2-item2
+101_1,9,741765.0,15826.0,223229.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_10,9,1115240.0,15826.0,222208.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_11,9,1067721.0,15826.0,218632.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_12,9,593419.0,15826.0,212416.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_13,9,187386.0,15826.0,42154.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_14,9,861231.0,15826.0,130730.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_15,9,803484.0,15826.0,179268.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_16,9,629182.0,15826.0,159530.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_17,9,745233.0,15826.0,228308.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_18,9,747816.0,15826.0,138536.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_19,9,1181910.0,15826.0,196604.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_2,9,718125.0,15826.0,234358.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_20,9,665942.0,15826.0,241718.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_21,9,766099.0,15826.0,193310.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_22,9,757901.0,15826.0,242281.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_23,9,873102.0,15826.0,176076.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_24,9,966752.0,15826.0,222232.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_25,9,749149.0,15826.0,286255.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_26,9,902784.0,15826.0,266434.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_27,9,797871.0,15826.0,157316.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_28,9,887106.0,15826.0,275604.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_29,9,622370.0,15826.0,166644.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_3,9,1063217.0,15826.0,182104.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_30,9,1549342.0,15826.0,256878.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_31,9,765905.0,15826.0,248918.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_32,9,790059.0,15826.0,202938.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_33,9,790778.0,15826.0,144058.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_34,9,812720.0,15826.0,198774.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_35,9,1040214.0,15826.0,110012.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_36,9,887911.0,15826.0,237294.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_37,9,738950.0,15826.0,206584.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_38,9,813469.0,15826.0,190998.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_39,9,540636.0,15826.0,261992.0,c-hd c-ca ss-c i-ss ss-sr ss-ws sr-d1 ws-d2
+101_4,9,1065004.0,15826.0,187708.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_40,9,457052.0,15826.0,206360.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_41,9,600324.0,15826.0,179892.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_42,9,663932.0,15826.0,191766.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_43,9,748970.0,15826.0,124364.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_44,9,872310.0,15826.0,197154.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_45,9,934893.0,15826.0,192810.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_46,9,841794.0,15826.0,219876.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_47,9,843647.0,15826.0,173786.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_48,9,1525455.0,15826.0,148788.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_49,9,1098821.0,15826.0,227484.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_5,9,685699.0,15826.0,170842.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_50,9,947910.0,15826.0,163386.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_6,9,1248314.0,15826.0,187886.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_7,9,807753.0,15826.0,197356.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_8,9,895827.0,15826.0,267704.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+101_9,9,1223538.0,15826.0,180082.0,c-hd c-ca ss-c ss-sr ss-ws i-ss sr-d1 ws-d2
+13a_1,6,5787517.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_10,6,5787413.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_11,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_12,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_13,6,5787425.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_14,6,5787517.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_15,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_16,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_17,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_18,6,5787501.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_19,6,5787493.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_2,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_20,6,5787445.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_21,6,5787501.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_22,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_23,6,5787609.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_24,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_25,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_26,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_27,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_28,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_29,6,5787401.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_3,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_30,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_31,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_32,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_33,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_34,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_35,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_36,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_37,6,5787517.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_38,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_39,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_4,6,5787501.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_40,6,5787501.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_41,6,5787493.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_42,6,5787445.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_43,6,5787445.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_44,6,5787469.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_45,6,5787497.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_46,6,5787445.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_47,6,5787655.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_48,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_49,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_5,6,5787577.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_50,6,5787517.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_6,6,5787757.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_7,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_8,6,5787469.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13a_9,6,5787585.2,15832.0,17942.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_1,6,5795832.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_10,6,5795804.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_11,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_12,6,5796066.600000001,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_13,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_14,6,5795656.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_15,6,5795656.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_16,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_17,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_18,6,5795704.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_19,6,5795668.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_2,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_20,6,5795676.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_21,6,5795676.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_22,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_23,6,5796066.600000001,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_24,6,5795804.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_25,6,5795676.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_26,6,5795660.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_27,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_28,6,5795656.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_29,6,5795900.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_3,6,5796066.600000001,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_30,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_31,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_32,6,5795644.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_33,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_34,6,5795600.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_35,6,5795648.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_36,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_37,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_38,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_39,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_4,6,5795832.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_40,6,5795914.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_41,6,5795668.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_42,6,5795832.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_43,6,5795576.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_44,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_45,6,5795832.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_46,6,5795656.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_47,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_48,6,5795832.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_49,6,5795644.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_5,6,5795696.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_50,6,5795636.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_6,6,5795636.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_7,6,5795644.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_8,6,5795644.2,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13b_9,6,5796066.600000001,15832.0,18386.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_1,6,5806172.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_10,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_11,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_12,6,5805812.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_13,6,5806172.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_14,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_15,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_16,6,5805776.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_17,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_18,6,5806004.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_19,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_2,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_20,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_21,6,5805812.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_22,6,5806172.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_23,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_24,6,5805984.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_25,6,5805876.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_26,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_27,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_28,6,5805812.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_29,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_3,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_30,6,5806414.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_31,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_32,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_33,6,5805816.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_34,6,5806414.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_35,6,5805900.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_36,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_37,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_38,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_39,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_4,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_40,6,5806172.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_41,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_42,6,5805884.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_43,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_44,6,5806104.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_45,6,5805716.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_46,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_47,6,5805876.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_48,6,5806414.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_49,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_5,6,5805944.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_50,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_6,6,5805980.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_7,6,5806012.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_8,6,5805740.2,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13c_9,6,5806210.600000001,15832.0,20510.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_1,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_10,6,5811289.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_11,6,5810631.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_12,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_13,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_14,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_15,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_16,6,5811076.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_17,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_18,6,5811091.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_19,6,5811091.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_2,6,5810931.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_20,6,5811289.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_21,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_22,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_23,6,5810611.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_24,6,5810631.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_25,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_26,6,5810643.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_27,6,5810643.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_28,6,5811289.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_29,6,5810697.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_3,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_30,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_31,6,5811289.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_32,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_33,6,5810691.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_34,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_35,6,5811076.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_36,6,5810931.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_37,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_38,6,5810697.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_39,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_4,6,5810697.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_40,6,5810691.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_41,6,5810697.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_42,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_43,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_44,6,5811076.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_45,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_46,6,5810547.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_47,6,5811007.600000001,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_48,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_49,6,5810631.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_5,6,5810931.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_50,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_6,6,5810743.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_7,6,5810807.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_8,6,5810931.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13d_9,6,5810655.2,15832.0,20972.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_1,6,5825380.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_10,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_11,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_12,6,5825581.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_13,6,5825125.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_14,6,5824923.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_15,6,5825125.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_16,6,5824767.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_17,6,5825380.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_18,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_19,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_2,6,5825380.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_20,6,5824859.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_21,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_22,6,5824803.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_23,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_24,6,5825380.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_25,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_26,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_27,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_28,6,5824803.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_29,6,5825125.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_3,6,5824699.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_30,6,5825125.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_31,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_32,6,5824795.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_33,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_34,6,5824823.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_35,6,5824859.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_36,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_37,6,5824699.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_38,6,5824859.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_39,6,5824891.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_4,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_40,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_41,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_42,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_43,6,5824891.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_44,6,5825125.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_45,6,5824795.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_46,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_47,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_48,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_49,6,5824891.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_5,6,5825581.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_50,6,5825431.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_6,6,5825176.600000001,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_7,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_8,6,5824823.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13e_9,6,5824995.2,15832.0,22058.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_1,6,5845812.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_10,6,5846351.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_11,6,5846460.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_12,6,5846540.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_13,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_14,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_15,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_16,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_17,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_18,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_19,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_2,6,5846522.4,15832.0,27250.0,ss-hd ss-d ss-ca s-ss cd-ss
+13f_20,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_21,6,5846624.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_22,6,5846624.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_23,6,5846440.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_24,6,5846624.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_25,6,5847191.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_26,6,5846100.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_27,6,5846540.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_28,6,5846478.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_29,6,5846624.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_3,6,5846624.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_30,6,5846351.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_31,6,5846462.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_32,6,5846351.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_33,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_34,6,5846528.4,15832.0,27250.0,ss-hd ss-d ss-ca s-ss cd-ss
+13f_35,6,5846494.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_36,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_37,6,5846180.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_38,6,5846138.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_39,6,5846184.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_4,6,5846518.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_40,6,5847191.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_41,6,5845944.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_42,6,5845900.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_43,6,5846506.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_44,6,5845916.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_45,6,5846138.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_46,6,5846351.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_47,6,5846064.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_48,6,5846540.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_49,6,5846540.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_5,6,5846100.0,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_50,6,5845914.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13f_6,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_7,6,5846753.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_8,6,5846540.4,15832.0,27250.0,ss-hd ss-d cd-ss s-ss ss-ca
+13f_9,6,5846516.0,15832.0,27250.0,ss-hd ss-d cd-ss ss-ca s-ss
+13g_1,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_10,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_11,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_12,6,5770887.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_13,6,5770847.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_14,6,5770887.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_15,6,5770887.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_16,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_17,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_18,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_19,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_2,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_20,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_21,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_22,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_23,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_24,6,5770847.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_25,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_26,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_27,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_28,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_29,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_3,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_30,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_31,6,5770847.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_32,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_33,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_34,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_35,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_36,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_37,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_38,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_39,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_4,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_40,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_41,6,5770867.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_42,6,5770887.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_43,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_44,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_45,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_46,6,5770871.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_47,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_48,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_49,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_5,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_50,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_6,6,5770867.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_7,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_8,6,5770859.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13g_9,6,5770863.2,15832.0,16620.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_1,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_10,6,5772030.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_11,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_12,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_13,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_14,6,5772014.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_15,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_16,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_17,6,5772046.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_18,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_19,6,5772030.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_2,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_20,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_21,6,5772026.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_22,6,5772074.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_23,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_24,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_25,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_26,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_27,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_28,6,5772046.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_29,6,5772030.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_3,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_30,6,5772046.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_31,6,5772030.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_32,6,5772030.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_33,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_34,6,5772022.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_35,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_36,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_37,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_38,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_39,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_4,6,5772074.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_40,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_41,6,5772022.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_42,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_43,6,5772022.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_44,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_45,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_46,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_47,6,5772074.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_48,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_49,6,5772042.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_5,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_50,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_6,6,5772046.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_7,6,5772062.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_8,6,5772074.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13h_9,6,5772050.2,15832.0,16784.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_1,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_10,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_11,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_12,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_13,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_14,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_15,6,5773344.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_16,6,5773268.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_17,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_18,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_19,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_2,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_20,6,5773344.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_21,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_22,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_23,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_24,6,5773268.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_25,6,5773252.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_26,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_27,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_28,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_29,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_3,6,5773268.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_30,6,5773252.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_31,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_32,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_33,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_34,6,5773344.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_35,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_36,6,5773268.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_37,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_38,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_39,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_4,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_40,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_41,6,5773244.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_42,6,5773344.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_43,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_44,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_45,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_46,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_47,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_48,6,5773280.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_49,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_5,6,5773256.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_50,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_6,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_7,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_8,6,5773284.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+13i_9,6,5773288.2,15832.0,17572.0,ss-hd ss-d cd-ss s-ss ss-ca
+18_1,6,3264887.4000000004,224392.0,251810.0,cs-i cs-cd cs-c c-ca cs-d
+18_10,6,3364804.4000000004,224392.0,273108.0,cs-i cs-cd cs-c c-ca cs-d
+18_11,6,3214468.2,160699.8,204037.8,cs-d cs-i cs-cd cs-c c-ca
+18_12,6,3266793.4000000004,224392.0,251950.0,cs-i cs-cd cs-c c-ca cs-d
+18_13,6,3181272.4000000004,224392.0,241328.0,cs-i cs-cd cs-c c-ca cs-d
+18_14,6,3252363.4000000004,224392.0,246148.0,cs-i cs-cd cs-c c-ca cs-d
+18_15,6,3451280.4000000004,224392.0,283610.0,cs-i cs-cd cs-c c-ca cs-d
+18_16,6,3312930.4000000004,224392.0,250924.0,cs-i cs-cd cs-c c-ca cs-d
+18_17,6,3367661.4000000004,224392.0,282772.0,cs-i cs-cd cs-c c-ca cs-d
+18_18,6,3499186.4000000004,224392.0,291660.0,cs-i cs-cd cs-c c-ca cs-d
+18_19,6,3115147.4000000004,224392.0,243910.0,cs-i cs-cd cs-c c-ca cs-d
+18_2,6,3154790.4000000004,224392.0,245522.0,cs-i cs-cd cs-c c-ca cs-d
+18_20,6,3658336.4000000004,224392.0,280726.0,cs-i cs-cd cs-c c-ca cs-d
+18_21,6,3026657.4000000004,224392.0,230642.0,cs-i cs-cd cs-c c-ca cs-d
+18_22,6,3328395.4000000004,224392.0,271870.0,cs-i cs-cd cs-c c-ca cs-d
+18_23,6,3150696.4000000004,224392.0,237472.0,cs-i cs-cd cs-c c-ca cs-d
+18_24,6,3367407.4000000004,224392.0,283400.0,cs-i cs-cd cs-c c-ca cs-d
+18_25,6,3366515.4000000004,224392.0,262310.0,cs-i cs-cd cs-c c-ca cs-d
+18_26,6,3367668.4000000004,224392.0,273088.0,cs-i cs-cd cs-c c-ca cs-d
+18_27,6,3214029.4000000004,224392.0,248900.0,cs-i cs-cd cs-c c-ca cs-d
+18_28,6,3493776.4000000004,224392.0,276186.0,cs-i cs-cd cs-c c-ca cs-d
+18_29,6,3193051.4000000004,224392.0,249958.0,cs-i cs-cd cs-c c-ca cs-d
+18_3,6,3482951.4000000004,224392.0,266318.0,cs-i cs-cd cs-c c-ca cs-d
+18_30,6,3228291.4000000004,224392.0,244788.0,cs-i cs-cd cs-c c-ca cs-d
+18_31,6,3158648.4000000004,224392.0,245354.0,cs-i cs-cd cs-c c-ca cs-d
+18_32,6,3095317.4000000004,224392.0,236636.0,cs-i cs-cd cs-c c-ca cs-d
+18_33,6,3216232.4000000004,224392.0,253786.0,cs-i cs-cd cs-c c-ca cs-d
+18_34,6,3175855.4000000004,224392.0,242302.0,cs-i cs-cd cs-c c-ca cs-d
+18_35,6,3419660.4000000004,224392.0,279078.0,cs-i cs-cd cs-c c-ca cs-d
+18_36,6,3344143.2,160699.8,207527.8,cs-d cs-cd cs-i cs-c c-ca
+18_37,6,3337289.2,160699.8,207779.8,cs-d cs-cd cs-i cs-c c-ca
+18_38,6,3117039.4000000004,224392.0,240586.0,cs-i cs-cd cs-c c-ca cs-d
+18_39,6,3130185.4000000004,224392.0,245558.0,cs-i cs-cd cs-c c-ca cs-d
+18_4,6,3471687.4000000004,224392.0,266134.0,cs-i cs-cd cs-c c-ca cs-d
+18_40,6,3109684.4000000004,224392.0,240542.0,cs-i cs-cd cs-c c-ca cs-d
+18_41,6,3026655.4000000004,224392.0,230530.0,cs-i cs-cd cs-c c-ca cs-d
+18_42,6,3059582.4000000004,224392.0,238774.0,cs-i cs-cd cs-c c-ca cs-d
+18_43,6,3109570.4000000004,224392.0,240580.0,cs-i cs-cd cs-c c-ca cs-d
+18_44,6,3427849.4000000004,224392.0,262202.0,cs-i cs-cd cs-c c-ca cs-d
+18_45,6,3021492.4000000004,224392.0,228902.0,cs-i cs-cd cs-c c-ca cs-d
+18_46,6,3361475.4000000004,224392.0,282662.0,cs-i cs-cd cs-c c-ca cs-d
+18_47,6,3228430.4000000004,224392.0,245018.0,cs-i cs-cd cs-c c-ca cs-d
+18_48,6,3301646.4000000004,224392.0,264652.0,cs-i cs-cd cs-c c-ca cs-d
+18_49,6,3012411.4000000004,224392.0,226850.0,cs-i cs-cd cs-c c-ca cs-d
+18_5,6,3607593.4000000004,224392.0,275742.0,cs-i cs-cd cs-c c-ca cs-d
+18_50,6,3340733.2,160699.8,207473.8,cs-d cs-cd cs-i cs-c c-ca
+18_6,6,3241675.4000000004,224392.0,255524.0,cs-i cs-cd cs-c c-ca cs-d
+18_7,6,3494575.4000000004,224392.0,302580.0,cs-i cs-cd cs-c c-ca cs-d
+18_8,6,3119661.4000000004,224392.0,244076.0,cs-i cs-cd cs-c c-ca cs-d
+18_9,6,3502986.4000000004,224392.0,292490.0,cs-i cs-cd cs-c c-ca cs-d
+19_1,6,6217652.0,224392.0,278861.8,ss-i d-ss ss-c c-ca ss-s
+19_10,6,7057276.0,224392.0,331457.8,ss-i d-ss ss-c c-ca ss-s
+19_11,6,6306387.0,224392.0,311654.8,ss-i d-ss ss-c c-ca ss-s
+19_12,6,6543095.0,224392.0,312189.8,ss-i d-ss ss-c c-ca ss-s
+19_13,6,6648538.0,224392.0,312157.8,ss-i d-ss ss-c c-ca ss-s
+19_14,6,425816.0,399991.0,405463.0,c-ca ss-c d-ss ss-i ss-s
+19_15,6,7031943.0,224392.0,326741.8,ss-i d-ss ss-c c-ca ss-s
+19_16,6,6492184.0,224392.0,295949.8,ss-i d-ss ss-c c-ca ss-s
+19_17,6,6254410.0,224392.0,288662.8,ss-i d-ss ss-c c-ca ss-s
+19_18,6,6330753.0,224392.0,279993.8,ss-i d-ss ss-c c-ca ss-s
+19_19,6,6644793.0,224392.0,401393.8,ss-i d-ss ss-c c-ca ss-s
+19_2,6,6679512.0,224392.0,395177.8,ss-i d-ss ss-c c-ca ss-s
+19_20,6,7013653.0,224392.0,321527.80000000005,ss-i d-ss ss-c c-ca ss-s
+19_21,6,6430597.0,224392.0,312164.8,ss-i d-ss ss-c c-ca ss-s
+19_22,6,6197148.0,224392.0,278859.8,ss-i d-ss ss-c c-ca ss-s
+19_23,6,6664744.0,224392.0,389876.8,ss-i d-ss ss-c c-ca ss-s
+19_24,6,6508871.0,224392.0,312174.8,ss-i d-ss ss-c c-ca ss-s
+19_25,6,421027.0,399991.0,402791.0,c-ca ss-c d-ss ss-i ss-s
+19_26,6,6109647.0,224392.0,263802.8,ss-i d-ss ss-c c-ca ss-s
+19_27,6,7061512.0,224392.0,326738.8,ss-i d-ss ss-c c-ca ss-s
+19_28,6,6416086.0,224392.0,312166.8,ss-i d-ss ss-c c-ca ss-s
+19_29,6,451428.0,399991.0,417482.0,c-ca ss-c d-ss ss-i ss-s
+19_3,6,445347.0,399991.0,411313.0,c-ca ss-c d-ss ss-i ss-s
+19_30,6,470326.8,399991.0,412834.0,c-ca ss-c d-ss ss-i ss-s
+19_31,6,7348571.0,224392.0,409979.8,ss-i d-ss ss-c c-ca ss-s
+19_32,6,6279435.0,224392.0,293065.8,ss-i d-ss ss-c c-ca ss-s
+19_33,6,7257981.0,224392.0,380547.8,ss-i d-ss ss-c c-ca ss-s
+19_34,6,6632006.0,224392.0,389897.8,ss-i d-ss ss-c c-ca ss-s
+19_35,6,6481528.0,224392.0,312177.8,ss-i d-ss ss-c c-ca ss-s
+19_36,6,7045857.0,224392.0,332352.8,ss-i d-ss ss-c c-ca ss-s
+19_37,6,6667407.0,224392.0,395177.8,ss-i d-ss ss-c c-ca ss-s
+19_38,6,6108330.0,224392.0,263805.8,ss-i d-ss ss-c c-ca ss-s
+19_39,6,6259247.0,224392.0,290998.8,ss-i d-ss ss-c c-ca ss-s
+19_4,6,6301541.0,224392.0,296095.8,ss-i d-ss ss-c c-ca ss-s
+19_40,6,6422556.0,224392.0,312155.8,ss-i d-ss ss-c c-ca ss-s
+19_41,6,6401298.0,224392.0,312156.8,ss-i d-ss ss-c c-ca ss-s
+19_42,6,7012501.0,224392.0,331435.8,ss-i d-ss ss-c c-ca ss-s
+19_43,6,6259983.0,224392.0,288664.8,ss-i d-ss ss-c c-ca ss-s
+19_44,6,6983299.0,224392.0,331450.8,ss-i d-ss ss-c c-ca ss-s
+19_45,6,6501037.0,224392.0,294337.8,ss-i d-ss ss-c c-ca ss-s
+19_46,6,6706535.0,224392.0,370109.8,ss-i d-ss ss-c c-ca ss-s
+19_47,6,7044055.0,224392.0,332348.8,ss-i d-ss ss-c c-ca ss-s
+19_48,6,7313248.0,224392.0,395070.8,ss-i d-ss ss-c c-ca ss-s
+19_49,6,6390145.0,224392.0,312153.8,ss-i d-ss ss-c c-ca ss-s
+19_5,6,6081802.0,224392.0,257847.8,ss-i d-ss ss-c c-ca ss-s
+19_50,6,7005736.0,224392.0,326745.8,ss-i d-ss ss-c c-ca ss-s
+19_6,6,6271234.0,224392.0,293067.8,ss-i d-ss ss-c c-ca ss-s
+19_7,6,6999166.0,224392.0,326735.8,ss-i d-ss ss-c c-ca ss-s
+19_8,6,6440708.0,224392.0,290725.8,ss-i d-ss ss-c c-ca ss-s
+19_9,6,7252313.0,224392.0,380539.8,ss-i d-ss ss-c c-ca ss-s
+25_1,8,2490438.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_10,8,2645191.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_11,8,2875218.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_12,8,2966624.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_13,8,2996216.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_14,8,3146687.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_15,8,2941863.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_16,8,2837618.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_17,8,2340526.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_18,8,2234345.800000001,160695.7999999998,164101.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_19,8,2941472.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_2,8,2498727.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_20,8,3013491.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_21,8,2164725.8000000017,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_22,8,2492788.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_23,8,2666570.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_24,8,2972881.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_25,8,2459076.800000001,160695.7999999998,164101.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_26,8,3064150.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_27,8,2406942.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_28,8,2585725.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_29,8,2498967.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_3,8,2774824.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_30,8,2312213.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_31,8,2618192.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_32,8,2482181.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_33,8,2784378.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_34,8,2965039.800000001,160695.7999999998,164101.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_35,8,2950239.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_36,8,3151366.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_37,8,2894578.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_38,8,3232302.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_39,8,2369367.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_4,8,3254512.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_40,8,2849434.800000001,160695.7999999998,164101.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_5,8,2421899.800000001,160695.7999999998,164177.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_6,8,2314788.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_7,8,3099618.800000001,160695.7999999998,164139.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_8,8,2805377.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+25_9,8,2712260.800000001,160695.7999999998,164215.80000000075,sr-d2 ss-sr d1-ss i-ss s-ss sr-cs cs-d3
+27_1,5,12190205.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_10,5,10783511.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_11,5,10860708.4,160701.8,164713.19999999998,ss-d ss-s ss-cd ss-i
+27_12,5,12024932.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_13,5,10863888.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_14,5,7245255.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_15,5,11034420.4,160701.8,164713.19999999998,ss-d ss-s ss-cd ss-i
+27_16,5,6137482.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_17,5,10877159.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_18,5,10967392.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_19,5,10947164.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_2,5,7279681.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_20,5,10555297.4,160701.8,163419.19999999998,ss-d ss-s ss-cd ss-i
+27_21,5,11048907.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_22,5,10461825.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_23,5,10470804.4,160701.8,163417.19999999998,ss-d ss-s ss-cd ss-i
+27_24,5,10959660.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_25,5,12625502.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_26,5,11012055.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_27,5,10863036.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_28,5,10463681.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_29,5,7226970.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_3,5,6126965.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_30,5,10569475.4,160701.8,163419.19999999998,ss-d ss-s ss-cd ss-i
+27_31,5,10704915.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_32,5,10552202.4,160701.8,162769.19999999998,ss-d ss-s ss-cd ss-i
+27_33,5,11333495.4,160701.8,162769.19999999998,ss-d ss-s ss-cd ss-i
+27_34,5,11271540.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_35,5,10985712.4,160701.8,163419.19999999998,ss-d ss-s ss-cd ss-i
+27_36,5,11337411.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_37,5,6137692.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_38,5,10985557.4,160701.8,162769.19999999998,ss-d ss-s ss-cd ss-i
+27_39,5,5977412.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_4,5,11460670.4,160701.8,163419.19999999998,ss-d ss-s ss-cd ss-i
+27_40,5,10590415.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_41,5,13583490.4,160701.8,167950.19999999998,ss-d ss-s ss-cd ss-i
+27_42,5,11422900.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_43,5,11987851.4,160701.8,162771.19999999998,ss-d ss-s ss-cd ss-i
+27_44,5,11290401.4,160701.8,164713.19999999998,ss-d ss-s ss-cd ss-i
+27_45,5,10492820.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_46,5,10569293.4,160701.8,163419.19999999998,ss-d ss-s ss-cd ss-i
+27_47,5,11784308.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_48,5,11425372.4,160701.8,164715.19999999998,ss-d ss-s ss-cd ss-i
+27_49,5,10958672.4,160701.8,164713.19999999998,ss-d ss-s ss-cd ss-i
+27_5,5,13574310.4,160701.8,167952.19999999998,ss-d ss-s ss-cd ss-i
+27_50,5,12364833.4,160701.8,167950.19999999998,ss-d ss-s ss-cd ss-i
+27_6,5,11852773.4,160701.8,167950.19999999998,ss-d ss-s ss-cd ss-i
+27_7,5,12025412.4,160701.8,162126.19999999998,ss-d ss-s ss-cd ss-i
+27_8,5,6126627.4,218.4,150146.2,ss-s ss-d ss-cd ss-i
+27_9,5,11742571.4,160701.8,167950.19999999998,ss-d ss-s ss-cd ss-i
+40_1,5,3092964.2,160701.8,161429.8,cs-d i-cs cs-cr cs-w
+40_10,5,3100117.2,160701.8,161069.8,cs-d cs-cr i-cs cs-w
+40_11,5,3058911.2,160701.8,160983.8,cs-d i-cs cs-cr cs-w
+40_12,5,3085302.2,160701.8,161251.8,cs-d i-cs cs-cr cs-w
+40_13,5,3178562.2,160701.8,161441.8,cs-d i-cs cs-cr cs-w
+40_14,5,3141837.2,160701.8,161645.8,cs-d cs-cr i-cs cs-w
+40_15,5,3072672.2,160701.8,161541.8,cs-d i-cs cs-cr cs-w
+40_16,5,3197386.2,160701.8,161577.8,cs-d i-cs cs-cr cs-w
+40_17,5,3050016.2,160701.8,161207.8,cs-d i-cs cs-cr cs-w
+40_18,5,3080182.2,160701.8,161537.8,cs-d i-cs cs-cr cs-w
+40_19,5,3043913.2,160701.8,161185.8,cs-d i-cs cs-cr cs-w
+40_2,5,3189311.2,160701.8,161843.8,cs-d cs-cr i-cs cs-w
+40_20,5,3198714.2,160701.8,161555.8,cs-d i-cs cs-cr cs-w
+40_21,5,3099190.2,160701.8,161493.8,cs-d i-cs cs-cr cs-w
+40_22,5,3243180.2,160701.8,161823.8,cs-d i-cs cs-cr cs-w
+40_23,5,3239397.2,160701.8,161841.8,cs-d i-cs cs-cr cs-w
+40_24,5,3285184.2,160701.8,161559.8,cs-d cs-cr i-cs cs-w
+40_25,5,3174452.2,160701.8,161541.8,cs-d i-cs cs-cr cs-w
+40_26,5,3051554.2,160701.8,161091.8,cs-d i-cs cs-cr cs-w
+40_27,5,3042637.2,160701.8,161419.8,cs-d i-cs cs-cr cs-w
+40_28,5,3056244.2,160701.8,161321.8,cs-d i-cs cs-cr cs-w
+40_29,5,3043543.2,160701.8,161091.8,cs-d i-cs cs-cr cs-w
+40_3,5,3184211.2,160701.8,161609.8,cs-d i-cs cs-cr cs-w
+40_30,5,3112246.2,160701.8,161409.8,cs-d i-cs cs-cr cs-w
+40_31,5,3089779.2,160701.8,161419.8,cs-d i-cs cs-cr cs-w
+40_32,5,3088725.2,160701.8,161261.8,cs-d cs-cr i-cs cs-w
+40_33,5,3080048.2,160701.8,161501.8,cs-d i-cs cs-cr cs-w
+40_34,5,3083010.2,160701.8,161529.8,cs-d i-cs cs-cr cs-w
+40_35,5,3082390.2,160701.8,161503.8,cs-d i-cs cs-cr cs-w
+40_36,5,3090945.2,160701.8,161557.8,cs-d i-cs cs-cr cs-w
+40_37,5,3099882.2,160701.8,161251.8,cs-d i-cs cs-cr cs-w
+40_38,5,3122800.2,160701.8,161821.8,cs-d i-cs cs-cr cs-w
+40_39,5,3048762.2,160701.8,161135.8,cs-d i-cs cs-cr cs-w
+40_4,5,3185836.2,160701.8,161557.8,cs-d i-cs cs-cr cs-w
+40_40,5,3077666.2,160701.8,161419.8,cs-d i-cs cs-cr cs-w
+40_41,5,3223755.2,160701.8,161541.8,cs-d i-cs cs-cr cs-w
+40_42,5,3048705.2,160701.8,161333.8,cs-d i-cs cs-cr cs-w
+40_43,5,3085711.2,160701.8,161573.8,cs-d i-cs cs-w cs-cr
+40_44,5,3061663.2,160701.8,161535.8,cs-d i-cs cs-cr cs-w
+40_45,5,3043068.2,160701.8,161125.8,cs-d i-cs cs-cr cs-w
+40_46,5,3089311.2,160701.8,161419.8,cs-d i-cs cs-cr cs-w
+40_47,5,3041919.2,160701.8,160983.8,cs-d i-cs cs-cr cs-w
+40_48,5,3308107.2,160701.8,161685.8,cs-d cs-cr i-cs cs-w
+40_49,5,3050850.2,160701.8,161077.8,cs-d cs-cr i-cs cs-w
+40_5,5,3119170.2,160701.8,161481.8,cs-d i-cs cs-cr cs-w
+40_50,5,3142556.2,160701.8,161515.8,cs-d i-cs cs-cr cs-w
+40_6,5,3057010.2,160701.8,161215.8,cs-d i-cs cs-cr cs-w
+40_7,5,3010055.2,160701.8,160949.8,cs-d i-cs cs-cr cs-w
+40_8,5,3091674.2,160701.8,161399.8,cs-d i-cs cs-cr cs-w
+40_9,5,3044209.2,160701.8,161529.8,cs-d i-cs cs-cr cs-w
+50_1,5,2249980.999999998,160701.8,285317.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_10,5,2286338.0,160701.8,319903.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_11,5,2197380.9999999995,160701.8,269912.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_12,5,2354372.9999999986,160701.8,272170.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_13,5,2410217.9999999986,160701.8,282661.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_14,5,2342827.0,160701.8,274009.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_15,5,2521058.9999999986,160701.8,290079.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_16,5,2240989.0,160701.8,265625.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_17,5,2493518.0,160701.8,309304.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_18,5,2281549.0,160701.8,267572.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_19,5,2197618.9999999986,160701.8,276500.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_2,5,2258864.9999999986,160701.8,275491.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_20,5,2482795.0,160701.8,312055.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_21,5,1658862.9999999993,218.39999999999418,235732.20000000013,sr-s sr-d2 ss-sr ss-d1
+50_22,5,2335349.0,160701.8,309304.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_23,5,2347877.0,160701.8,289679.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_24,5,2100959.999999998,160701.8,246614.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_25,5,1711539.9999999993,218.39999999999418,190981.1999999999,sr-s sr-d2 ss-sr ss-d1
+50_26,5,2532922.0,160701.8,311570.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_27,5,2286354.0,160701.8,265915.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_28,5,2122113.9999999986,160701.8,252524.20000000016,sr-d2 sr-s ss-sr ss-d1
+50_29,5,2185830.9999999986,160701.8,275471.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_3,5,2295053.9999999986,160701.8,286871.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_30,5,2066623.0,160701.8,260510.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_31,5,2184376.9999999986,160701.8,280187.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_32,5,2230812.0,160701.8,283013.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_33,5,2264933.9999999986,160701.8,273206.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_34,5,2340329.999999998,160701.8,293552.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_35,5,2479281.0,160701.8,291881.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_36,5,2210625.9999999986,160701.8,295750.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_37,5,2312653.9999999995,160701.8,295981.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_38,5,2208097.9999999986,160701.8,273206.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_39,5,2394024.9999999986,160701.8,293552.20000000007,sr-d2 sr-s ss-sr ss-d1
+50_4,5,2271292.999999998,160701.8,272485.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_40,5,2440934.9999999986,160701.8,285991.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_41,5,2254479.999999998,160701.8,272189.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_42,5,2298251.999999998,160701.8,275491.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_43,5,2310516.9999999986,160701.8,290079.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_44,5,2278780.9999999986,160701.8,278753.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_45,5,2382779.999999998,160701.8,283688.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_46,5,2322635.0,160701.8,309446.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_47,5,2296570.0,160701.8,273506.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_48,5,2307431.0,160701.8,302300.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_49,5,1932470.9999999993,218.39999999999418,191014.1999999999,sr-s sr-d2 ss-sr ss-d1
+50_5,5,2149376.9999999986,160701.8,282661.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_50,5,2226920.9999999986,160701.8,292300.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_6,5,2496748.0,160701.8,311570.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_7,5,2552537.0,160701.8,309304.19999999995,sr-d2 sr-s ss-sr ss-d1
+50_8,5,2273009.9999999986,160701.8,280187.2000000002,sr-d2 sr-s ss-sr ss-d1
+50_9,5,2237941.0,160701.8,269200.19999999995,sr-d2 sr-s ss-sr ss-d1
+84_1,6,398609.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_10,6,398488.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_11,6,398203.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_12,6,396981.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_13,6,397280.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_14,6,398636.0,1455.0,71416.0,ib-hd hd-c c-ca cd-c sr-cd
+84_15,6,397539.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_16,6,397310.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_17,6,397015.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_18,6,398712.0,1455.0,71422.0,ib-hd hd-c c-ca cd-c sr-cd
+84_19,6,396610.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_2,6,397717.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_20,6,397098.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_21,6,395853.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_22,6,395881.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_23,6,399077.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_24,6,396664.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_25,6,397886.0,1455.0,71412.0,ib-hd hd-c c-ca cd-c sr-cd
+84_26,6,398106.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_27,6,396235.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_28,6,399317.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_29,6,396488.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_3,6,399716.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_30,6,398316.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_31,6,397922.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_32,6,396411.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_33,6,398861.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_34,6,398142.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_35,6,398954.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_36,6,396908.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_37,6,398173.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_38,6,396151.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_39,6,396695.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_4,6,398648.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_40,6,395731.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_41,6,397477.0,1455.0,71416.0,ib-hd hd-c c-ca cd-c sr-cd
+84_42,6,396199.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_43,6,397303.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_44,6,400151.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_45,6,399668.0,1455.0,71416.0,ib-hd hd-c c-ca cd-c sr-cd
+84_46,6,397453.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_47,6,396770.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_48,6,396491.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_49,6,397722.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_5,6,396473.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_50,6,398055.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_6,6,399696.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_7,6,395924.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_8,6,396372.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+84_9,6,398639.0,1455.0,71288.0,ib-hd hd-c c-ca cd-c sr-cd
+85a_1,8,1513950.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_10,8,1513954.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_11,8,1513456.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_12,8,1514024.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_13,8,1513442.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_14,8,1514128.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_15,8,1508883.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_16,8,1508997.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_17,8,1508961.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_18,8,1512561.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_19,8,1509101.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_2,8,1512547.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_20,8,1509001.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_21,8,1508993.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_22,8,1509534.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_23,8,1508959.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_24,8,1508993.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_25,8,1508923.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_26,8,1509538.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_27,8,1514016.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_28,8,1512687.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_29,8,1512523.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_3,8,1512715.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_30,8,1512633.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_31,8,1514030.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_32,8,1512687.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_33,8,1513452.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_34,8,1514032.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_35,8,1513418.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_36,8,1513574.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_37,8,1513950.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_38,8,1512667.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_39,8,1512633.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_4,8,1512669.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_40,8,1512637.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_41,8,1512591.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_42,8,1512713.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_43,8,1509538.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_44,8,1509620.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_45,8,1513414.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_46,8,1513562.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_47,8,1514046.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_48,8,1508959.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_49,8,1509087.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_5,8,1514134.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_50,8,1509636.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_6,8,1513328.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_7,8,1509534.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_8,8,1509586.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85a_9,8,1513384.0000000002,428.0,22198.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_1,8,1638794.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_10,8,1625667.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_11,8,1625863.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_12,8,1622418.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_13,8,1622452.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_14,8,1635522.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_15,8,1634882.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_16,8,1636060.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_17,8,1635632.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_18,8,1636076.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_19,8,1635928.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_2,8,1635090.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_20,8,1622432.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_21,8,1626005.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_22,8,1638992.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_23,8,1622322.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_24,8,1634878.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_25,8,1622284.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_26,8,1638928.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_27,8,1639318.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_28,8,1638822.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_29,8,1622420.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_3,8,1622454.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_30,8,1638648.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_31,8,1635256.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_32,8,1635516.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_33,8,1635174.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_34,8,1638772.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_35,8,1639512.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_36,8,1638988.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_37,8,1625659.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_38,8,1639054.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_39,8,1625973.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_4,8,1635286.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_40,8,1636066.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_41,8,1622612.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_42,8,1635660.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_43,8,1635048.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_44,8,1635604.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_45,8,1635830.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_46,8,1625853.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_47,8,1635180.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_48,8,1622188.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_49,8,1625665.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_5,8,1622424.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_50,8,1636058.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_6,8,1622594.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_7,8,1638696.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_8,8,1625621.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85b_9,8,1622466.0000000002,428.0,42212.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_1,8,1455729.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_10,8,1455293.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_11,8,1455755.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_12,8,1455707.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_13,8,1456015.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_14,8,1455967.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_15,8,1455693.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_16,8,1456015.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_17,8,1455997.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_18,8,1455321.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_19,8,1455123.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_2,8,1456003.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_20,8,1455131.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_21,8,1455697.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_22,8,1455287.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_23,8,1455737.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_24,8,1455985.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_25,8,1455291.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_26,8,1455971.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_27,8,1455129.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_28,8,1455963.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_29,8,1455971.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_3,8,1455707.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_30,8,1455971.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_31,8,1455727.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_32,8,1455309.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_33,8,1455701.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_34,8,1455731.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_35,8,1455311.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_36,8,1455973.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_37,8,1456015.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_38,8,1455293.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_39,8,1455307.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_4,8,1455769.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_40,8,1455291.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_41,8,1455701.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_42,8,1455731.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_43,8,1456017.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_44,8,1455321.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_45,8,1455731.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_46,8,1455293.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_47,8,1455739.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_48,8,1455291.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_49,8,1455167.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_5,8,1455999.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_50,8,1455757.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_6,8,1455283.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_7,8,1455987.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_8,8,1455971.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85c_9,8,1455711.2000000002,428.0,10238.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_1,8,1541776.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_10,8,1535239.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_11,8,1535341.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_12,8,1542024.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_13,8,1540180.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_14,8,1540340.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_15,8,1540410.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_16,8,1535425.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_17,8,1540330.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_18,8,1534367.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_19,8,1535205.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_2,8,1540460.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_20,8,1542180.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_21,8,1540452.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_22,8,1540408.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_23,8,1540260.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_24,8,1541990.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_25,8,1534601.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_26,8,1541836.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_27,8,1535331.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_28,8,1540454.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_29,8,1535343.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_3,8,1540200.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_30,8,1535257.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_31,8,1540588.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_32,8,1535237.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_33,8,1534333.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_34,8,1540488.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_35,8,1541756.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_36,8,1535235.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_37,8,1541760.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_38,8,1540350.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_39,8,1542166.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_4,8,1541956.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_40,8,1540316.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_41,8,1541776.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_42,8,1535237.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_43,8,1541856.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_44,8,1540388.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_45,8,1540380.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_46,8,1534313.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_47,8,1540246.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_48,8,1534449.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_49,8,1540460.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_5,8,1540320.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_50,8,1534603.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_6,8,1540200.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_7,8,1542162.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_8,8,1534449.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85d_9,8,1534443.0000000002,428.0,26788.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_1,8,1677722.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_10,8,1678584.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_11,8,1682367.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_12,8,1677864.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_13,8,1677686.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_14,8,1678558.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_15,8,1678042.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_16,8,1660717.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_17,8,1660855.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_18,8,1677926.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_19,8,1678028.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_2,8,1665212.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_20,8,1660461.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_21,8,1683053.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_22,8,1664810.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_23,8,1665222.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_24,8,1678178.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_25,8,1682679.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_26,8,1683027.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_27,8,1661179.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_28,8,1677890.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_29,8,1678248.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_3,8,1665134.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_30,8,1683037.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_31,8,1683067.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_32,8,1660437.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_33,8,1664892.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_34,8,1665290.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_35,8,1660495.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_36,8,1664898.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_37,8,1664808.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_38,8,1677866.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_39,8,1664822.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_4,8,1660525.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_40,8,1660531.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_41,8,1660529.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_42,8,1678416.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_43,8,1682735.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_44,8,1677940.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_45,8,1682745.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_46,8,1660405.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_47,8,1678592.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_48,8,1678218.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_49,8,1682751.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_5,8,1660405.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_50,8,1678562.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_6,8,1678198.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_7,8,1678036.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_8,8,1677674.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85e_9,8,1677708.0000000002,428.0,50950.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_1,8,1462773.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_10,8,1463823.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_11,8,1463823.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_12,8,1462791.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_13,8,1463657.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_14,8,1463821.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_15,8,1463639.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_16,8,1462789.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_17,8,1462777.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_18,8,1463793.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_19,8,1462819.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_2,8,1462789.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_20,8,1463635.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_21,8,1463659.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_22,8,1463855.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_23,8,1463795.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_24,8,1463639.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_25,8,1463645.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_26,8,1463809.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_27,8,1463853.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_28,8,1463847.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_29,8,1463813.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_3,8,1463779.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_30,8,1463849.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_31,8,1463097.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_32,8,1462799.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_33,8,1463649.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_34,8,1462767.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_35,8,1463833.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_36,8,1463861.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_37,8,1462787.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_38,8,1462769.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_39,8,1463669.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_4,8,1463623.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_40,8,1463793.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_41,8,1463791.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_42,8,1463657.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_43,8,1463791.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_44,8,1463651.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_45,8,1463823.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_46,8,1463669.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_47,8,1462769.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_48,8,1463809.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_49,8,1462799.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_5,8,1463823.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_50,8,1463667.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_6,8,1463825.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_7,8,1463097.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_8,8,1463857.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85f_9,8,1463799.2000000002,428.0,12350.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_1,8,1573179.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_10,8,1574178.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_11,8,1573339.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_12,8,1564498.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_13,8,1574694.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_14,8,1573367.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_15,8,1572889.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_16,8,1564498.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_17,8,1564704.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_18,8,1574434.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_19,8,1572863.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_2,8,1573167.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_20,8,1574166.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_21,8,1566006.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_22,8,1573163.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_23,8,1572693.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_24,8,1574502.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_25,8,1573365.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_26,8,1573283.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_27,8,1573237.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_28,8,1572643.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_29,8,1564482.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_3,8,1572821.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_30,8,1565850.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_31,8,1574182.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_32,8,1565770.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_33,8,1573383.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_34,8,1572689.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_35,8,1573363.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_36,8,1573375.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_37,8,1564560.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_38,8,1572613.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_39,8,1573239.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_4,8,1565898.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_40,8,1564726.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_41,8,1565770.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_42,8,1565968.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_43,8,1565892.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_44,8,1572953.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_45,8,1572927.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_46,8,1573363.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_47,8,1565904.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_48,8,1564706.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_49,8,1573345.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_5,8,1572595.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_50,8,1573351.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_6,8,1573153.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_7,8,1565856.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_8,8,1573573.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85g_9,8,1565818.0000000002,428.0,48344.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_1,8,1723428.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_10,8,1747821.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_11,8,1747779.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_12,8,1748533.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_13,8,1748849.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_14,8,1756202.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_15,8,1723878.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_16,8,1749557.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_17,8,1729400.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_18,8,1747953.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_19,8,1730638.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_2,8,1729858.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_20,8,1723164.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_21,8,1747929.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_22,8,1754912.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_23,8,1723286.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_24,8,1723118.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_25,8,1723808.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_26,8,1722986.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_27,8,1748513.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_28,8,1748871.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_29,8,1748973.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_3,8,1729314.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_30,8,1755398.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_31,8,1755032.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_32,8,1755602.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_33,8,1749471.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_34,8,1748061.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_35,8,1729952.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_36,8,1729948.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_37,8,1750129.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_38,8,1749961.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_39,8,1754788.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_4,8,1748213.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_40,8,1729676.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_41,8,1755612.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_42,8,1754918.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_43,8,1723166.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_44,8,1729412.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_45,8,1750375.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_46,8,1750353.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_47,8,1729522.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_48,8,1729862.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_49,8,1748953.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_5,8,1756240.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_50,8,1729500.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_6,8,1748081.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_7,8,1729314.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_8,8,1749965.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85h_9,8,1754542.0000000002,428.0,83787.8,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_1,8,1474137.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_10,8,1472517.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_11,8,1472877.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_12,8,1473791.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_13,8,1473693.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_14,8,1472519.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_15,8,1473675.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_16,8,1472433.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_17,8,1474109.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_18,8,1473897.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_19,8,1473675.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_2,8,1474155.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_20,8,1472481.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_21,8,1474155.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_22,8,1474153.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_23,8,1474169.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_24,8,1472831.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_25,8,1474191.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_26,8,1473711.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_27,8,1473675.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_28,8,1473703.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_29,8,1474135.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_3,8,1473671.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_30,8,1473673.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_31,8,1474097.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_32,8,1472435.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_33,8,1472453.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_34,8,1473665.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_35,8,1472475.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_36,8,1473933.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_37,8,1473691.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_38,8,1472453.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_39,8,1474175.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_4,8,1474107.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_40,8,1474255.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_41,8,1473687.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_42,8,1472899.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_43,8,1472437.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_44,8,1473879.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_45,8,1472837.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_46,8,1474109.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_47,8,1472911.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_48,8,1473877.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_49,8,1472483.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_5,8,1472835.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_50,8,1473671.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_6,8,1474097.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_7,8,1474111.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_8,8,1472481.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+85i_9,8,1473663.2000000002,428.0,22274.0,ws-wp ws-d ws-wr cd1-wr cd2-wr ca-wr r-wr
+91_1,7,661025.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_10,7,657433.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_11,7,624176.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_12,7,628264.6000000001,160697.8,162007.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_13,7,665696.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_14,7,619289.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_15,7,648904.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_16,7,644111.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_17,7,643858.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_18,7,631773.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_19,7,682045.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_2,7,684689.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_20,7,712798.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_21,7,651241.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_22,7,687108.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_23,7,631102.6000000001,160697.8,161811.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_24,7,686014.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_25,7,609136.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_26,7,577957.6000000001,160697.8,162007.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_27,7,666649.6000000001,160697.8,162097.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_28,7,712825.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_29,7,656744.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_3,7,651116.6000000001,160697.8,162013.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_30,7,639208.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_31,7,620603.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_32,7,684255.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_33,7,524534.6000000001,160697.8,161881.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_34,7,652263.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_35,7,633430.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_36,7,683558.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_37,7,648514.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_38,7,653556.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_39,7,666057.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_4,7,561661.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_40,7,630586.6000000001,160697.8,161811.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_41,7,537824.6000000001,160697.8,162013.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_42,7,687363.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_43,7,667862.6000000001,160697.8,161811.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_44,7,601541.6000000001,160697.8,162007.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_45,7,524207.80000000005,160697.8,161811.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_46,7,626638.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_47,7,650360.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_48,7,683048.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_49,7,641389.6000000001,160697.8,162007.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_5,7,665982.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_50,7,646503.6000000001,160697.8,162053.8,cr-d cr-c hd-c ca-c cd-c cr-cc
+91_6,7,666853.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_7,7,649820.6000000001,160697.8,161929.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_8,7,695687.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+91_9,7,632010.6000000001,160697.8,161975.8,cr-d cr-c ca-c hd-c cd-c cr-cc
+99_1,5,3149143.2,38.0,3159.8,cs-sm cs-w cs-cc cs-d
+99_10,5,2994442.2,38.0,1637.8,cs-sm cs-w cs-cc cs-d
+99_11,5,3368971.2,38.0,5791.8,cs-sm cs-w cs-cc cs-d
+99_12,5,3020752.2,38.0,1079.8,cs-sm cs-w cs-cc cs-d
+99_13,5,3052259.2,38.0,2023.8,cs-sm cs-w cs-cc cs-d
+99_14,5,3650350.0,38.0,5793.8,cs-sm cs-w cs-cc cs-d
+99_15,5,3118915.2,38.0,1729.8,cs-sm cs-w cs-cc cs-d
+99_16,5,3221886.2,38.0,3769.8,cs-sm cs-w cs-cc cs-d
+99_17,5,2995072.2,38.0,804.0,cs-sm cs-w cs-d cs-cc
+99_18,5,3273699.2,38.0,3371.8,cs-sm cs-w cs-cc cs-d
+99_19,5,2983476.2,38.0,738.0,cs-sm cs-w cs-d cs-cc
+99_2,5,3309283.0,38.0,4347.8,cs-sm cs-w cs-cc cs-d
+99_20,5,3444735.2,38.0,4697.8,cs-sm cs-w cs-cc cs-d
+99_21,5,3415656.2,38.0,4503.8,cs-sm cs-w cs-cc cs-d
+99_22,5,2963339.2,38.0,710.0,cs-sm cs-w cs-d cs-cc
+99_23,5,2995593.2,38.0,762.0,cs-sm cs-w cs-d cs-cc
+99_24,5,2984333.2,38.0,692.0,cs-sm cs-w cs-d cs-cc
+99_25,5,2962298.2,38.0,820.0,cs-sm cs-w cs-d cs-cc
+99_26,5,2948602.2,38.0,804.0,cs-sm cs-w cs-d cs-cc
+99_27,5,3023792.2,38.0,1079.8,cs-sm cs-w cs-cc cs-d
+99_28,5,3845742.0,38.0,7178.8,cs-sm cs-w cs-cc cs-d
+99_29,5,2952218.2,38.0,690.0,cs-sm cs-w cs-d cs-cc
+99_3,5,2982523.2,38.0,718.0,cs-sm cs-w cs-d cs-cc
+99_30,5,3126021.2,38.0,2393.8,cs-sm cs-w cs-cc cs-d
+99_31,5,2948946.2,38.0,565.0,cs-sm cs-w cs-d cs-cc
+99_32,5,2976245.2,38.0,690.0,cs-sm cs-w cs-d cs-cc
+99_33,5,3005423.2,38.0,1079.8,cs-sm cs-w cs-cc cs-d
+99_34,5,3221760.2,38.0,2943.8,cs-sm cs-w cs-cc cs-d
+99_35,5,3229933.2,38.0,2533.8,cs-sm cs-w cs-cc cs-d
+99_36,5,3121999.2,38.0,2003.8,cs-sm cs-w cs-cc cs-d
+99_37,5,3167520.2,38.0,2737.8,cs-sm cs-w cs-cc cs-d
+99_38,5,3267698.0,38.0,3755.8,cs-sm cs-w cs-cc cs-d
+99_39,5,2954236.2,38.0,738.0,cs-sm cs-w cs-d cs-cc
+99_4,5,3591363.0,38.0,5324.8,cs-sm cs-w cs-cc cs-d
+99_40,5,3153821.2,38.0,2235.8,cs-sm cs-w cs-cc cs-d
+99_41,5,2999216.2,38.0,746.0,cs-sm cs-w cs-d cs-cc
+99_42,5,3120029.2,38.0,2017.8,cs-sm cs-w cs-cc cs-d
+99_43,5,3288611.0,38.0,3093.8,cs-sm cs-w cs-cc cs-d
+99_44,5,3290104.0,38.0,3081.8,cs-sm cs-w cs-cc cs-d
+99_45,5,3209620.2,38.0,2867.8,cs-sm cs-w cs-cc cs-d
+99_46,5,3024104.2,38.0,1669.8,cs-sm cs-w cs-cc cs-d
+99_47,5,2999779.2,38.0,670.0,cs-sm cs-w cs-d cs-cc
+99_48,5,3157432.2,38.0,2003.8,cs-sm cs-w cs-cc cs-d
+99_49,5,3045605.2,38.0,1335.8,cs-sm cs-w cs-cc cs-d
+99_5,5,3049605.2,38.0,1345.8,cs-sm cs-w cs-cc cs-d
+99_50,5,3134333.2,38.0,2533.8,cs-sm cs-w cs-cc cs-d
+99_6,5,2966156.2,38.0,571.0,cs-sm cs-w cs-d cs-cc
+99_7,5,2964858.2,38.0,812.0,cs-sm cs-w cs-d cs-cc
+99_8,5,3569449.2,38.0,5793.8,cs-sm cs-w cs-cc cs-d
+99_9,5,2979661.2,38.0,738.0,cs-sm cs-w cs-d cs-cc

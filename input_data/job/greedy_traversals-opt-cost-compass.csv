@@ -1,0 +1,114 @@
+query_name,plan_size,true_cost,compass_est_cost,psql_est_cost,plan
+1a,5,675083.2000000001,562022.1434000002,522281.2,ct-mc mc-mi_idx it-mi_idx mc-t
+1b,5,1186235.2000000002,1132655.6147,551140.2000000001,ct-mc mc-mi_idx it-mi_idx mc-t
+1c,5,613818.2000000001,546267.821889,522162.2,ct-mc mc-mi_idx it-mi_idx mc-t
+1d,5,1186235.2000000002,1141071.788,551140.2000000001,ct-mc mc-mi_idx it-mi_idx mc-t
+2a,5,1623787.4,870220.6,295598.0,k-mk mc-mk cn-mc mc-t
+2b,5,1615969.4,506276.39999999997,295592.0,k-mk mc-mk cn-mc mc-t
+2c,5,1600297.4,407395.20999999996,295592.0,k-mk mc-mk cn-mc mc-t
+2d,5,1805233.4,1817852.5999999999,295664.0,k-mk mc-mk cn-mc mc-t
+32a,6,1222171.0,885362.3,451441.0,lt-ml ml-t1 ml-t2 k-mk mk-t1
+32b,6,1298021.0,541093.86,451201.0,lt-ml ml-t1 ml-t2 k-mk mk-t1
+3a,4,1108175.0,1586030.7000000002,1066742.0,k-mk mi-mk mi-t
+3b,4,1104685.0,1149547.9000000001,1066566.0,k-mk mi-mk mi-t
+3c,4,1128969.0,2016748.5,1068064.0,k-mk mi-mk mi-t
+4a,5,338582.60000000003,554254.2000000001,276364.60000000003,it-mi_idx mi_idx-t mi_idx-mk k-mk
+4b,5,277849.60000000003,551228.3596000001,276149.60000000003,it-mi_idx mi_idx-t mi_idx-mk k-mk
+4c,5,290148.60000000003,601797.9230000001,276149.60000000003,it-mi_idx mi_idx-t mi_idx-mk k-mk
+5a,5,1052888.2000000002,1169787.39391,528386.2000000001,ct-mc mc-mi it-mi mc-t
+5b,5,526427.2000000001,834279.25138,524710.2,ct-mc mc-mi it-mi mc-t
+5c,5,526433.2000000001,773273.18038,526690.2000000001,ct-mc mc-mi it-mi mc-t
+6a,5,1070728.0,3790908.64,1066322.0,k-mk mk-t ci-mk ci-n
+6b,5,1173966.0,1939155.0,1066271.0,k-mk mk-t ci-mk ci-n
+6c,5,1065964.0,1362609.3199999998,1065854.0,k-mk mk-t ci-mk ci-n
+6d,5,4314342.0,14863401.885,1079595.0,k-mk mk-t ci-mk ci-n
+6e,5,1070728.0,6762566.415,1067530.0,k-mk mk-t ci-mk ci-n
+6f,5,4314342.0,158220036.2,1079595.0,k-mk mk-t ci-mk ci-n
+7a,8,1240254.4,52971859.9,661256.4,lt-ml ml-t ci-ml it-pi an-pi an-n an-ci
+7b,8,1001960.4,30331782.200000003,633769.4,lt-ml ml-t ci-ml ci-n it-pi an-pi an-ci
+7c,8,3346811.4,24606033.8,681818.4,lt-ml ml-t ci-ml it-pi an-pi an-n an-ci
+8a,7,7586761.2,745463.66,3234.4,ci-rt an-ci an-n ci-mc cn-mc ci-t
+8b,7,7586539.2,106925.27414,3234.4,ci-rt an-ci an-n ci-t ci-mc cn-mc
+8c,7,23945971.2,9113387025.2,5062644.6,cn-mc an-n mc-t ci-rt an-ci ci-mc
+8d,7,15644295.2,9148839315.2,5062644.6,cn-mc an-n mc-t ci-rt an-ci ci-mc
+9a,8,9494117.8,168985968.9,26760.4,ci-rt an-ci an-n ci-mc ci-t cn-mc chn-ci
+9b,8,10081536.0,32547536.2,538739.8,ci-rt an-ci an-n ci-t cn-mc ci-mc chn-ci
+9c,8,11498899.0,3068879803.0,1175013.7999999998,ci-rt an-ci an-n ci-t cn-mc chn-ci ci-mc
+9d,8,15761462.0,17354497585.0,2276733.8,ci-rt an-ci an-n cn-mc chn-ci mc-t ci-mc
+10a,7,840050.4000000001,892521.6698280001,841910.4000000001,cn-mc ct-mc ci-mc ci-rt ci-t chn-ci
+10b,7,909938.4000000001,1398531.6762,856736.4000000001,cn-mc ct-mc mc-t ci-mc ci-rt chn-ci
+10c,7,10726980.4,2168150.0171,6339433.800000001,cn-mc ct-mc ci-mc ci-rt ci-t chn-ci
+11a,8,61413.8,97608.34498000001,6128.8,lt-ml mc-ml ct-mc cn-mc mc-t mc-mk k-mk
+11b,8,16982.8,96043.8457394,6128.8,lt-ml mc-ml ct-mc mc-t cn-mc mc-mk k-mk
+11c,8,2241951.2,96053.72356600002,401856.19999999995,lt-ml mc-ml ct-mc cn-mc mc-t mc-mk k-mk
+11d,8,796102.8,110801.46387,198087.8,lt-ml mc-ml ct-mc mc-t cn-mc mc-mk k-mk
+12a,8,329397.0,8574.781300000002,460.40000000000003,it2-mi_idx mc-mi_idx ct-mc cn-mc mc-mi it1-mi mc-t
+12b,8,278908.0,3625824.0330000003,28768.6,it2-mi_idx mi_idx-t mc-mi_idx ct-mc cn-mc mc-mi it1-mi
+12c,8,457687.0,31211.551600000003,1047.3999999999999,it2-mi_idx mc-mi_idx ct-mc mc-mi it1-mi mc-t cn-mc
+13a,9,2467423.6,1019226.5042720002,869174.0000000001,cn-mc ct-mc mc-mi_idx it1-mi_idx mc-t kt-t mc-mi it2-mi
+13b,9,512814.8,533925.7226773001,505688.80000000005,kt-t mi_idx-t it1-mi_idx mc-mi_idx ct-mc cn-mc mc-mi it2-mi
+13c,9,506991.8,517941.5421437001,505688.80000000005,kt-t mi_idx-t it1-mi_idx mc-mi_idx ct-mc cn-mc mc-mi it2-mi
+13d,9,12084046.6,3576730.9980149996,297839.80000000005,it1-mi_idx mi_idx-t kt-t mc-mi_idx ct-mc cn-mc mc-mi it2-mi
+14a,8,287082.60000000003,281764.80043450004,276230.60000000003,it2-mi_idx mi-mi_idx it1-mi mi-t kt-t mi-mk k-mk
+14b,8,331593.2,298060.324802,276513.2,it2-mi_idx mi-mi_idx it1-mi mi-t kt-t mi-mk k-mk
+14c,8,309542.60000000003,282115.16612630006,276234.60000000003,it2-mi_idx mi-mi_idx it1-mi mi-t kt-t mi-mk k-mk
+15a,9,750486.6000000001,616556.6726640002,563203.6000000001,ct-mc att-mc att-mi it-mi att-t cn-mc att-mk k-mk
+15b,9,748966.6000000001,588723.8717166802,563199.6000000001,ct-mc att-mc cn-mc att-mi it-mi att-t att-mk k-mk
+15c,9,3412599.2,1302738.0518999998,795387.0,att-mi it-mi att-t att-mc ct-mc cn-mc att-mk k-mk
+15d,9,3459939.8000000003,1308276.6038,795940.8,att-mi it-mi att-t att-mc ct-mc cn-mc att-mk k-mk
+16a,8,4519752.8,720003869.1,2740917.8,k-mk mc-mk mc-t cn-mc an-n ci-mc an-ci
+16b,8,52968299.0,17070624412.2,11976124.8,k-mk mc-mk cn-mc mc-t an-n an-ci ci-mc
+16c,8,49437277.599999994,7395827759.3,11976061.8,k-mk mc-mk mc-t cn-mc an-n an-ci ci-mc
+16d,8,49359538.599999994,2765724857.1,11976076.8,k-mk mc-mk mc-t cn-mc an-n an-ci ci-mc
+17a,7,19403466.4,1311797229.6,14702111.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+17b,7,14718368.0,239184145.6,12547815.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+17c,7,14275718.0,122006327.6,12547815.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+17d,7,14356918.0,116346295.6,12547815.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+17e,7,53200306.4,1133366045.6,33895703.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+17f,7,20368154.0,1057673573.6,14702309.0,k-mk mc-mk cn-mc mc-t ci-n ci-mc
+18a,7,8162364.4,56352320.1,3415209.2,it2-mi_idx mi_idx-t ci-mi_idx ci-n it1-mi ci-mi
+18b,7,295358.60000000003,540204.96,276271.60000000003,it2-mi_idx ci-mi_idx ci-mi it1-mi ci-t ci-n
+18c,7,2991761.2,14836385.3,312227.2,it2-mi_idx mi_idx-t mi-mi_idx it1-mi ci-mi ci-n
+19a,10,4916808.000000001,68993037.09,2926934.6,cn-mc mc-mi it-mi mc-t an-n an-ci ci-rt chn-ci ci-mc
+19b,10,1382607.6,1275382.4351499998,874498.2000000001,cn-mc mc-mi mc-t it-mi ci-mc ci-rt ci-n chn-ci an-ci
+19c,10,2040428.8,167364296.18,1918914.2,an-n an-ci ci-rt ci-mi it-mi ci-t ci-mc cn-mc chn-ci
+19d,10,28124844.6,48500436692.9,6938155.800000001,an-ci ci-rt an-n cn-mc ci-t it-mi ci-mi ci-mc chn-ci
+20a,10,10796086.0,162201.5284127059,27719.8,cc-cct1 cc-cct2 cc-ci chn-ci cc-t kt-t cc-mk ci-n k-mk
+20b,10,11268990.4,162201.6787106319,27719.8,cc-cct1 cc-cct2 cc-ci ci-n cc-t chn-ci cc-mk k-mk kt-t
+20c,10,15712391.6,162481.26258161681,27721.8,cc-cct1 cc-cct2 cc-ci cc-t kt-t chn-ci ci-n cc-mk k-mk
+21a,9,160903.8,100569.17030999999,6130.8,lt-ml mc-ml ct-mc mc-mi cn-mc mc-t mc-mk k-mk
+21b,9,44991.8,98948.83939000001,6130.8,lt-ml mc-ml ct-mc mc-mi mc-t cn-mc mc-mk k-mk
+21c,9,214354.8,102894.04901,6130.8,lt-ml mc-ml ct-mc mc-mi mc-t cn-mc mc-mk k-mk
+22a,11,343100.4,299879.0333879324,276444.4,it2-mi_idx mc-mi_idx ct-mc mc-t kt-t mc-mi it1-mi cn-mc mc-mk k-mk
+22b,11,339896.80000000005,299940.8922252703,276444.4,it2-mi_idx mc-mi_idx ct-mc mc-t kt-t cn-mc mc-mi it1-mi mc-mk k-mk
+22c,11,291111.80000000005,280334.6600357125,276202.60000000003,it2-mi_idx mc-mi_idx ct-mc cn-mc mc-t kt-t mc-mi it1-mi mc-mk k-mk
+22d,11,398697.4,281802.5714987466,276240.60000000003,it2-mi_idx mi-mi_idx it1-mi mi-t kt-t mc-mi ct-mc cn-mc mc-mk k-mk
+23a,11,964879.8,437233.8287544123,35456.8,cc-cct cc-mc cc-mi it-mi ct-mc cn-mc cc-t kt-t cc-mk k-mk
+23b,11,964872.8,437233.7950666,35456.8,cc-cct cc-mc cc-mi it-mi ct-mc cn-mc cc-t kt-t cc-mk k-mk
+23c,11,964921.8,437233.7911999101,35456.8,cc-cct cc-mc cc-mi it-mi ct-mc cn-mc cc-t kt-t cc-mk k-mk
+24a,12,1227187.0,1540804.8599,1066001.0,k-mk mk-t mi-mk it-mi mc-mi ci-mc ci-rt cn-mc ci-n an-ci chn-ci
+24b,12,807957.6000000001,804806.0786797954,803858.2000000001,cn-mc mc-t mc-mi it-mi ci-mc ci-rt an-ci an-n chn-ci ci-mk k-mk
+25a,9,1406439.2000000002,1487745.6353000002,1066453.0,k-mk ci-mk ci-mi it1-mi ci-t ci-mi_idx it2-mi_idx ci-n
+25b,9,1329228.0,1335746.6757999999,1066447.0,k-mk ci-mk ci-mi_idx ci-t it2-mi_idx ci-mi it1-mi ci-n
+25c,9,1911750.2000000002,1954979.5159999998,1066765.6,k-mk ci-mk ci-mi it1-mi ci-mi_idx it2-mi_idx ci-t ci-n
+26a,12,11992160.8,162210.55520597115,27723.8,cc-cct1 cc-cct2 cc-ci cc-mi_idx it-mi_idx cc-t kt-t cc-mk k-mk chn-ci ci-n
+26b,12,8902192.8,162229.54430352373,27723.8,cc-cct1 cc-cct2 cc-ci cc-mi_idx it-mi_idx chn-ci cc-t kt-t ci-n cc-mk k-mk
+26c,12,15851090.2,162277.22799505145,27725.8,cc-cct1 cc-cct2 cc-ci cc-t kt-t chn-ci cc-mi_idx it-mi_idx ci-n cc-mk k-mk
+27a,12,52005.399999999994,94508.34153634768,6142.8,lt-ml cc-ml cc-cct2 cc-cct1 cc-mc cc-mi cc-t cn-mc ct-mc cc-mk k-mk
+27b,12,71091.4,95295.74983534208,6142.8,lt-ml cc-ml cc-cct2 cc-cct1 cc-mc cc-t cc-mi cn-mc ct-mc cc-mk k-mk
+27c,12,81501.4,94508.34584259395,6142.8,lt-ml cc-ml cc-cct2 cc-cct1 cc-mc cc-mi cc-t cn-mc ct-mc cc-mk k-mk
+28a,14,1259402.6,162194.13091252014,29789.8,cc-cct1 cc-cct2 cc-mc cc-mi_idx cc-mi cn-mc ct-mc cc-mk it1-mi it2-mi_idx cc-t k-mk kt-t
+28b,14,387451.19999999995,162194.09856786582,29917.399999999998,cc-cct1 cc-cct2 cc-mc cc-mi cc-mi_idx it2-mi_idx cc-t cc-mk cn-mc ct-mc it1-mi k-mk kt-t
+28c,14,400601.19999999995,162197.2265013792,27693.8,cc-cct1 cc-cct2 cc-mc cc-mi cc-t cc-mk cn-mc cc-mi_idx it1-mi ct-mc it2-mi_idx k-mk kt-t
+30a,12,432770.99999999994,162207.27386420232,28454.8,cc-cct1 cc-cct2 cc-ci cc-mi it1-mi cc-mi_idx it2-mi_idx cc-t ci-n cc-mk k-mk
+30b,12,250132.8,162196.6208726638,28446.8,cc-cct1 cc-cct2 cc-ci cc-t cc-mi it1-mi cc-mi_idx it2-mi_idx ci-n cc-mk k-mk
+30c,12,1132188.0,162256.89568602174,27691.8,cc-cct1 cc-cct2 cc-ci cc-t cc-mi it1-mi cc-mi_idx it2-mi_idx ci-n cc-mk k-mk
+31a,11,1964282.4,2003584.4275999998,1870249.2000000002,cn-mc mc-mi it1-mi mc-mi_idx it2-mi_idx ci-mc ci-t ci-n k-mk ci-mk
+31b,11,853991.4,807598.7566490001,803841.2000000001,cn-mc mc-mi it1-mi mc-t ci-mc ci-n ci-mk k-mk ci-mi_idx it2-mi_idx
+31c,11,1971958.4,2027535.9870000002,1870290.8,cn-mc mc-mi it1-mi mc-t ci-mc ci-mi_idx it2-mi_idx ci-n k-mk ci-mk
+33a,14,62629.0,217593.991516,6802.6,lt-ml mc2-ml mc2-mi_idx2 it2-mi_idx2 mc2-t2 kt2-t2 ml-t1 kt1-t1 mc1-ml cn1-mc1 cn2-mc2 mc1-mi_idx1 it1-mi_idx1
+33b,14,217161.4,126485.1456,6357.0,lt-ml mc2-ml mc2-t2 mc1-ml mc1-t1 kt1-t1 kt2-t2 mc1-mi_idx1 mc2-mi_idx2 it2-mi_idx2 cn1-mc1 it1-mi_idx1 cn2-mc2
+33c,14,105186.0,262724.31396,6363.4,lt-ml mc2-ml mc2-t2 kt2-t2 mc2-mi_idx2 it2-mi_idx2 cn2-mc2 ml-t1 kt1-t1 mc1-ml cn1-mc1 mc1-mi_idx1 it1-mi_idx1
+29a,17,4831115.6,162195.43098320303,27701.8,cc-cct1 cc-cct2 cc-ci cc-t an-ci an-n chn-ci cc-mc cc-mi cc-mk ci-rt ci-pi cn-mc it1-mi it2-pi k-mk
+29b,17,2779763.6,162195.41215239087,27701.8,cc-cct1 cc-cct2 cc-ci cc-t an-ci an-n chn-ci cc-mc cc-mi cc-mk ci-rt ci-pi cn-mc it1-mi it2-pi k-mk
+29c,17,546405.4,162233.4359653339,27701.8,cc-cct1 cc-cct2 cc-ci ci-rt an-ci cc-mi it1-mi an-n cc-t cc-mc cn-mc cc-mk k-mk chn-ci ci-pi it2-pi

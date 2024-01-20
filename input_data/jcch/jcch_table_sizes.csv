@@ -1,0 +1,9 @@
+table_name, table_size
+customer, 150000
+lineitem, 6000000
+nation, 25
+orders, 1500000
+part, 200000
+partsupp, 800000
+region, 5
+supplier, 10000
