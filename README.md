@@ -32,6 +32,10 @@ The dataset that was used is [Internet Movie Data Base (IMDB)](https://www.imdb.
 
 However, there were issues in bulk loading the original dataset, SQL syntax errors, and missing primary key values in referenced tables. To make sure PostgreSQL and COMPASS have the same dataset, we fixed those errors in data, schema, and indexes.
 
+An alternative solution to bulk load the original dataset, follow the commands below:
+- `sed -e 's/\\\\\"/"/g' -e 's/\\"//g' company_name.csv > company_name_temp.csv`. This eliminates `\\"` and `\"` characters that cause the PostgreSQL to fail ignoring commas within two double quotes during the bulk loading. There are 10 out of 21 tables have this issue (`company_name`, `aka_title`, `aka_name`, `title`, `movie_companies`, `person_info`, `char_name`, `name`, `movie_info`, and `cast_info`). The remaining 11 tables have no issues.
+- `\COPY company_name FROM 'company_name_temp.csv' DELIMITER ',' NULL '' CSV;`. It is necessary to include `CSV` in the command to ignore commas between two double quotes.
+
 ## 4. JOB-light and Join Order Benchmark (JOB) <a name="benchmark1"></a>
 The workloads used to evaluate L1-error are [JOB-light](https://github.com/andreaskipf/learnedcardinalities) and [Join Order Benchmark (JOB)](http://www-db.in.tum.de/~leis/qo/job.tgz).
 - JOB-light consists of 70 star-structure queries with equijoins. Join sizes 2-5, join predicates 1-4, and tables 2-5. The first three queries consist of only two tables.
